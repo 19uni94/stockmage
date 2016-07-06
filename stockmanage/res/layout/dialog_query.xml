@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="輸入查詢的貨物編號" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+  <TableRow
+        android:id="@+id/classroom_detail_item_tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_Cno"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_Cname"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+		 <TextView
+            android:id="@+id/txt_Cnum"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+       
+
+    </TableRow>
+
+</LinearLayout>
